@@ -3,9 +3,9 @@
     {
       "id": 1,
       "title": "Why I Chose Code ",
-      "content": "I used to love photography, but coding gave me a way to build ideas from scratch. It's creativity with logic.",
+      "content": "I used to love photography, but coding gave me a way to build ideas from scratch.",
       "author": "Ralph Njuguna",
-      "image": "/images/coding.jpeg",
+      "image": "images/laptop.jpg",
       "date": "2025-06-24"
     },
     {
@@ -24,6 +24,5 @@
       "image": "images/kenyacoding.jpeg",
       "date": "2025-06-20"
     }
-
   ]
 }
