@@ -4,19 +4,25 @@
       "id": 1,
       "title": "Why I Chose Code 💻",
       "content": "I used to love photography, but coding gave me a way to build ideas from scratch. It's creativity with logic.",
-      "author": "Ralph Njuguna"
+      "author": "Ralph Njuguna",
+      "image": "https://images.unsplash.com/photo-1581090700227-1e8d92f32788",
+      "date": "2025-06-24"
     },
     {
       "id": 2,
       "title": "Dreaming in JavaScript 🌌",
       "content": "Learning JavaScript has been both exciting and frustrating—but every breakthrough feels like magic.",
-      "author": "Ralph Njuguna"
+      "author": "Ralph Njuguna",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+      "date": "2025-06-22"
     },
     {
       "id": 3,
       "title": "Kenya to the World 🌍",
       "content": "As a dev in Nairobi, I believe African talent belongs on the global tech stage. One line of code at a time.",
-      "author": "Ralph Njuguna"
+      "author": "Ralph Njuguna",
+      "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6",
+      "date": "2025-06-20"
     }
   ]
 }
