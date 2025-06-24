@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post Pulse</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="app-title">Post Pulse</h1>
+    <p class="subtitle">Modern blog post management</p>
+
+    <div class="main">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>Blog Posts</h2>
+        <p id="post-count">0 posts</p>
+        <div id="post-list" class="post-list"></div>
+
+        <h3>+ Add New Post</h3>
+        <form id="new-post-form">
+          <input type="text" id="title" placeholder="Post title..." required />
+          <input type="text" id="author" placeholder="Author name..." required />
+          <input type="text" id="image" placeholder="Image URL..." />
+          <textarea id="content" placeholder="Write your post content..." required></textarea>
+          <div class="form-buttons">
+            <button type="submit" class="add-btn">+ Add Post</button>
+            <button type="reset" class="cancel-btn">Cancel</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Main post detail -->
+      <div id="post-detail" class="post-detail">
+        <p>Select a post to see its details</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
