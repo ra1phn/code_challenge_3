@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 36px;
+  margin-bottom: 0;
+  color: #1a202c;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #718096;
+}
+
+.main {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.post-list {
+  margin-top: 15px;
+}
+
+.post-item {
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.post-item:hover,
+.post-item.active {
+  background-color: #e2e8f0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #cbd5e0;
+  box-sizing: border-box;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.add-btn,
+.cancel-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #a0aec0;
+  color: white;
+}
+
+.post-detail {
+  flex: 2;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.post-detail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.post-meta {
+  color: #718096;
+  font-size: 14px;
+}
+
+.post-actions {
+  margin-top: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #2b6cb0;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
